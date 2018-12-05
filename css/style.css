@@ -404,27 +404,28 @@ body {
     /**?*/
     z-index: 10;
     transition: all .2s;
-    outline-offset: 2rem; }
+    outline-offset: 1rem; }
     @media (max-width: 56.25em) {
       .composition-photo {
         float: left;
         width: 33.33333%;
         position: relative;
-        box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.2); } }
+        box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.2);
+        outline-offset: .5rem; } }
     .composition-photo-p1 {
       left: 0;
       top: -2rem; }
       @media (max-width: 56.25em) {
         .composition-photo-p1 {
           top: 0;
-          transform: scale(1.3); } }
+          transform: scale(1.2); } }
     .composition-photo-p2 {
       right: 0;
       top: 2rem; }
       @media (max-width: 56.25em) {
         .composition-photo-p2 {
           top: -1rem;
-          transform: scale(1.3);
+          transform: scale(1.2);
           z-index: 15; } }
     .composition-photo-p3 {
       left: 20%;
@@ -433,7 +434,7 @@ body {
         .composition-photo-p3 {
           top: 0;
           left: 0;
-          transform: scale(1.3); } }
+          transform: scale(1.2); } }
     .composition-photo:hover {
       outline: 1.5rem solid #55c57a;
       /**伸缩且向上*/
@@ -442,12 +443,13 @@ body {
       z-index: 20; }
       @media (max-width: 56.25em) {
         .composition-photo:hover {
-          transform: scale(1.4); } }
+          outline: 0.5rem solid #55c57a;
+          transform: scale(1.2); } }
   .composition:hover .composition-photo:not(:hover) {
     transform: scale(0.95); }
     @media (max-width: 56.25em) {
       .composition:hover .composition-photo:not(:hover) {
-        transform: scale(1.3); } }
+        transform: scale(1.1); } }
 
 .feature-box {
   background-color: rgba(255, 255, 255, 0.7);
@@ -1090,13 +1092,13 @@ body {
     margin: 1rem; }
   .nav-link:link, .nav-link:visited {
     font-size: 3rem;
-    font-weight: 100;
+    font-weight: 300;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     padding: .5rem 2rem;
     border-radius: 3px;
-    background-image: linear-gradient(105deg, transparent 0, transparent 60%, #fff 40%);
+    background-image: linear-gradient(105deg, transparent 60%, #fff 40%);
     background-size: 300%;
     transition: all .5s;
     /**使盒模型的属性可以实现，不能是行内元素*/

@@ -47,8 +47,6 @@
         color: $color-grey-dark-2;
       }
     }
-
-   
   }
 
   &-label {
@@ -104,12 +102,10 @@
         opacity: 0;
       }
     }
-
     /**form-radio checked的时候，注意逻辑*/
     &:checked ~ &-label  &-btn::after {
             opacity: 1;
           }
-
     &-label {
       cursor: pointer;
       font-size: $default-font-size;
