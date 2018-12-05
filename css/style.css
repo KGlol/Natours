@@ -53,7 +53,7 @@ body {
   /*sans-serif 无衬线字体类型*/
   line-height: 1.7;
   color: #777;
-  padding: 3rem;
+  padding: 1rem;
   box-sizing: border-box; }
   @media (max-width: 56.25em) {
     body {
@@ -171,14 +171,14 @@ body {
 
 .section-about {
   background-color: #f7f7f7;
-  padding: 25rem 0;
+  padding: 25rem 5rem;
   margin: -20vh 0; }
   @media (max-width: 56.25em) {
     .section-about {
       padding: 20rem 0; } }
 
 .section-features {
-  padding: 20rem 0;
+  padding: 20rem 5rem;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../../img/nat-4.jpg);
   background-size: cover;
   /**另一种斜角显示的方法，使用skew
@@ -194,7 +194,7 @@ body {
 
 .section-tours {
   background-color: #f7f7f7;
-  padding: 25rem 0 15rem 0;
+  padding: 25rem 5rem 15rem 5rem;
   margin-top: -20vh; }
   @media (max-width: 56.25em) {
     .section-tours {
@@ -852,7 +852,7 @@ body {
     font-size: 1.4rem;
     margin-bottom: 4rem;
     -moz-column-count: 2;
-    -moz-column-gap: 4rem;
+    -moz-column-gap: 3rem;
     -moz-column-rule: 1px dashed #eee;
     column-count: 2;
     column-gap: 4rem;
