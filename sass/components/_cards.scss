@@ -24,6 +24,8 @@
     /**使定位后的元素恢复原来的宽度*/
     width: 100%;
     /**使背面的元素在不翻转时不可见*/
+    /**修复safari兼容性*/
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     /**使背景图片在页面放大缩小时正常显示*/
     overflow: hidden;
