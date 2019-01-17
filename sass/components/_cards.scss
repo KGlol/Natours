@@ -1,10 +1,10 @@
 /**翻转卡片的效果*/
 
 .card {
-  /**perspective加在父级上，*/
-  perspective: 150rem;
   /**兼容firefox*/
   -moz-perspective: 150rem;
+  /**perspective加在父级上，*/
+  perspective: 150rem;
 
   position: relative;
   /**子元素绝对定位使得其height collapsed（坍方）*/
